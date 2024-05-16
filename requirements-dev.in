@@ -7,3 +7,6 @@ djhtml
 flake8
 isort
 pre-commit
+django-stubs[compatible-mypy]
+pytest-django
+pytest-playwright
