@@ -1,0 +1,9 @@
+-c requirements.txt
+
+black
+curlylint
+django-upgrade
+djhtml
+flake8
+isort
+pre-commit
