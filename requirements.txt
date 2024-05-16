@@ -6,9 +6,21 @@
 #
 asgiref==3.8.1
     # via django
-django==5.0.6
+dj-database-url==2.1.0
     # via -r requirements.in
-psycopg2==2.9.9
+django==5.0.6
+    # via
+    #   -r requirements.in
+    #   dj-database-url
+gunicorn==22.0.0
+    # via -r requirements.in
+packaging==24.0
+    # via gunicorn
+psycopg2-binary==2.9.9
+    # via -r requirements.in
+python-decouple==3.8
     # via -r requirements.in
 sqlparse==0.5.0
     # via django
+typing-extensions==4.11.0
+    # via dj-database-url

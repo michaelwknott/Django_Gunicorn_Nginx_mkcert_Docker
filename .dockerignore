@@ -1,0 +1,11 @@
+.venv
+.git
+.gitignore
+.env
+requirements-dev.in
+requirement-dev.txt
+.flake8
+.mypy_cache
+.vscode
+.editorconfig
+.pre-commit-config.yaml
